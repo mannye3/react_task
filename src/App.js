@@ -12,7 +12,7 @@ import AdminPrivateRoute from './AdminPrivateRoute';
 
 
 
-axios.defaults.baseURL = "http://laravel.ailesgroup.com/";
+axios.defaults.baseURL = "https://laravel.ailesgroup.com/";
 axios.defaults.headers.post['Content-Type'] = 'application/json';
 axios.defaults.headers.post['Accept'] = 'application/json';
 

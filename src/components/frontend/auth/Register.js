@@ -81,7 +81,7 @@ function Register(){
 
                 <div className="form-group mb-3">
                     <label for="exampleInputEmail1" className="form-label">Password</label>
-                    <input type="text" name="password" onChange={handleInput} value={registerInput.password} className="form-control" id="exampleInputEmail1" aria-describedby="emailHelp"/>
+                    <input type="password" name="password" onChange={handleInput} value={registerInput.password} className="form-control" id="exampleInputEmail1" aria-describedby="emailHelp"/>
                     <span>{registerInput.error_list.password}</span>
                 </div>
 
